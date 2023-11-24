@@ -30,7 +30,7 @@ Kør `id_drugsystem.sql` - for at kunne bruge scriptet.
 Køre din server med ESX, kan du importere alle items via `esx_items.sql`
 
 # Dependencies
-Alle dependencies kan hentes på vores discord under "kunde"-kategorien.
+Alle dependencies kan hentes ved at trykke på det.
   - [id_core](https://github.com/cBeyerDK/id_core)
   - [id_notify](https://github.com/cBeyerDK/skeexsNotify/archive/refs/heads/main.zip) 
   - [id_helpnotify](https://github.com/cBeyerDK/cd_drawtextui/archive/refs/heads/main.zip)
