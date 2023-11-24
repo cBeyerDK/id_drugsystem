@@ -20,7 +20,7 @@ Du kan ændre beskeder under `shared/langs/da.lua`
 Du kan indstille scriptet efter dine behov i `config.lua`
 Du kan ændre de forskellige funktioner der bliver brugt i scriptet i hhv. `shared/utils.lua`, `server/utils.lua` og `client/utils.lua`
 
-#__VIGTIGT__
+# __VIGTIGT__
 Gå ind i `server/main.lua` og `client/main.lua` og ændre variablen "serverEventCode" til det **PRÆCIS** samme i begge filer.
 Gøres dette ikke, kan hackere bruge koden til at trigger events og snyde med ting. Kender de ikke koden, så bliver de banned med det samme.
 
