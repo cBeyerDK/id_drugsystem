@@ -40,7 +40,8 @@ Alle dependencies kan hentes ved at trykke på det.
 
 # Tilføjelser
 - Bande System
-    Med vores Bande System kan du gøre nogle funktioner kun tilgængelige for bande-medlemmer. [LINK](https://github.com/cBeyerDK/id_gangsystem/releases)
+    Med vores Bande System kan du gøre nogle funktioner kun tilgængelige for bande-medlemmer.
+    Find scriptet [her](https://github.com/cBeyerDK/id_gangsystem/releases)
 
 # Support
 Der er ingen support at hente. Scriptet står som det er.
