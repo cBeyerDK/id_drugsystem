@@ -1,9 +1,16 @@
-██╗██████╗░███████╗███╗░░██╗████████╗██╗████████╗██╗░░░██╗  ░██████╗████████╗░█████╗░██████╗░███████╗
-██║██╔══██╗██╔════╝████╗░██║╚══██╔══╝██║╚══██╔══╝╚██╗░██╔╝  ██╔════╝╚══██╔══╝██╔══██╗██╔══██╗██╔════╝
-██║██║░░██║█████╗░░██╔██╗██║░░░██║░░░██║░░░██║░░░░╚████╔╝░  ╚█████╗░░░░██║░░░██║░░██║██████╔╝█████╗░░
-██║██║░░██║██╔══╝░░██║╚████║░░░██║░░░██║░░░██║░░░░░╚██╔╝░░  ░╚═══██╗░░░██║░░░██║░░██║██╔══██╗██╔══╝░░
-██║██████╔╝███████╗██║░╚███║░░░██║░░░██║░░░██║░░░░░░██║░░░  ██████╔╝░░░██║░░░╚█████╔╝██║░░██║███████╗
-╚═╝╚═════╝░╚══════╝╚═╝░░╚══╝░░░╚═╝░░░╚═╝░░░╚═╝░░░░░░╚═╝░░░  ╚═════╝░░░░╚═╝░░░░╚════╝░╚═╝░░╚═╝╚══════╝
+
+██╗██████╗░███████╗███╗░░██╗████████╗██╗████████╗██╗░░░██╗
+██║██╔══██╗██╔════╝████╗░██║╚══██╔══╝██║╚══██╔══╝╚██╗░██╔╝
+██║██║░░██║█████╗░░██╔██╗██║░░░██║░░░██║░░░██║░░░░╚████╔╝░
+██║██║░░██║██╔══╝░░██║╚████║░░░██║░░░██║░░░██║░░░░░╚██╔╝░░
+██║██████╔╝███████╗██║░╚███║░░░██║░░░██║░░░██║░░░░░░██║░░░
+╚═╝╚═════╝░╚══════╝╚═╝░░╚══╝░░░╚═╝░░░╚═╝░░░╚═╝░░░░░░╚═╝░░░
+░██████╗████████╗░█████╗░██████╗░███████╗
+██╔════╝╚══██╔══╝██╔══██╗██╔══██╗██╔════╝
+╚█████╗░░░░██║░░░██║░░██║██████╔╝█████╗░░
+░╚═══██╗░░░██║░░░██║░░██║██╔══██╗██╔══╝░░
+██████╔╝░░░██║░░░╚█████╔╝██║░░██║███████╗
+╚═════╝░░░░╚═╝░░░░╚════╝░╚═╝░░╚═╝╚══════╝
 
 # Avanceret Drugsystem
 Vores drugsystem fjerner AFK-farming. Vi har lavet det sådan, at du skal plante et frø på en bestemt lokation, for at kunne gro stoffer.
@@ -13,6 +20,10 @@ Du kan ændre beskeder under `shared/langs/da.lua`
 Du kan indstille scriptet efter dine behov i `config.lua`
 Du kan ændre de forskellige funktioner der bliver brugt i scriptet i hhv. `shared/utils.lua`, `server/utils.lua` og `client/utils.lua`
 
+#__VIGTIGT__
+Gå ind i `server/main.lua` og `client/main.lua` og ændre variablen "serverEventCode" til det **PRÆCIS** samme i begge filer.
+Gøres dette ikke, kan hackere bruge koden til at trigger events og snyde med ting. Kender de ikke koden, så bliver de banned med det samme.
+
 # SQL
 Alle `.sql` filer ligger under `SQL` mappen.
 Kør `id_drugsystem.sql` - for at kunne bruge scriptet.
@@ -20,20 +31,20 @@ Køre din server med ESX, kan du importere alle items via `esx_items.sql`
 
 # Dependencies
 Alle dependencies kan hentes på vores discord under "kunde"-kategorien.
-  - id_core
-  - id_notify
-  - id_helpnotify
-  - oxmysql
-  - fivem-target
-  - progressBars
+  - [id_core](https://github.com/cBeyerDK/id_core)
+  - [id_notify](https://github.com/cBeyerDK/skeexsNotify/archive/refs/heads/main.zip) 
+  - [id_helpnotify](https://github.com/cBeyerDK/cd_drawtextui/archive/refs/heads/main.zip)
+  - [oxmysql](https://github.com/overextended/oxmysql/releases)
+  - [fivem-target](https://github.com/cBeyerDK/fivem-target/archive/refs/heads/main.zip)
+  - [progressBars](https://github.com/cBeyerDK/progressBars/archive/refs/heads/master.zip)
 
 # Tilføjelser
 - Bande System
     Med vores Bande System kan du gøre nogle funktioner kun tilgængelige for bande-medlemmer.
-    Link: https://identity.tebex.io/package/5026176
+    Link: ...
 
 # Support
-Er der ting i scriptet der ikke virker, så opret en ticket på vores discord: https://discord.gg/E4kMrhQRS3
+Der er ingen support at hente. Scriptet står som det er.
 
-
-Copyright(c) Identity Store 2022-2030
+Scriptet er beskyttet under GNU General Public License v3.0 <br />
+Scriptet er skrevet og udgivet af **cBeyer** som er med ejer af Identity Store
