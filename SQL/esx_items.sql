@@ -1,0 +1,20 @@
+INSERT INTO `items` (`name`, `label`, `weight`) VALUES
+    ('weed_seed', 'Hash Frø', 1),
+    ('weed_uncleaned', 'Hash Blade', 1),
+    ('weed', 'Joint', 1),
+    ('weed_packed', 'Pakket Joint', 1),
+    ('jointpapir', 'Joint Papir', 1),
+    ('plastic_bag', 'Plastik Pose', 1),
+    ('coke_seed', 'Kokain Frø', 1),
+    ('coke_uncleaned', 'Kokain Blade', 1),
+    ('coke', 'Kokain', 1),
+    ('coke_packed', 'Pakket Kokain', 1),
+    ('chemicals', 'Kemikalier', 1),
+    ('heroin_seed', 'Heroin Frø', 1),
+    ('heroin_uncleaned', 'Herion Blade', 1),
+    ('heroin', 'Herion Kanyle', 1),
+    ('heroin_packed', 'Pakket Herion Kanyle', 1),
+    ('kanyle', 'Kanyle', 1),
+    ('watering_can', 'Vandkande', 1),
+    ('fertilize_bag', 'Gødningssæk', 1)
+;
